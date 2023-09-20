@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { ThemeProvider } from "@/components/darkmode/theme-provider"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,9 +22,17 @@ export default function RootLayout({
   return (
     <html lang="en" className='h-screen'>
       <body
-        className={`${inter.className} max-w-7xl p-6 mx-auto bg-gradient-to-r from-white to-zinc-50 rounded-ee-3xl flex-grow`}
+        className={`${inter.className} rounded-ee-3xl flex-grow`}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+          themes={['pink', 'red', 'blue']}
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )
