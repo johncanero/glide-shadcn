@@ -28,10 +28,10 @@ export function ModeToggle() {
                 <DropdownMenuItem onClick={() => setTheme("light")} className="dark:bg-zinc-900 hover:dark:bg-zinc-800 hover:bg-zinc-100">
                     Light
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setTheme("dark")} className="dark:bg-zinc-900 hover:dark:bg-zinc-800 hover:bg-zinc-100">
+                <DropdownMenuItem onClick={() => setTheme("dark")} className=" dark:bg-zinc-900 hover:dark:bg-zinc-800 hover:bg-zinc-100">
                     Dark
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setTheme("system")} className="dark:bg-zinc-900 hover:dark:bg-zinc-800 hover:bg-zinc-100">
+                <DropdownMenuItem onClick={() => setTheme("system")} className=" dark:bg-zinc-900 hover:dark:bg-zinc-800 hover:bg-zinc-100">
                     System
                 </DropdownMenuItem>
             </DropdownMenuContent>
