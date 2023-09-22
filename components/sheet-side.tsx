@@ -35,7 +35,7 @@ export function SheetSide() {
                     </SheetTrigger>
                     <SheetContent side={side} className="bg-white dark:bg-zinc-900">
                         <SheetHeader>
-                            <SheetTitle className="text-3xl font-bold">glider</SheetTitle>
+                            <SheetTitle className="mt-4 text-3xl font-bold">glider</SheetTitle>
                             <SheetDescription>
                                 {/* Make changes to y   our profile here. Click save when you're done. */}
                             </SheetDescription>
@@ -66,7 +66,7 @@ export function SheetSide() {
 
                         <SheetFooter>
                             <SheetClose asChild>
-                                <Button className="gap-1 mt-12">
+                                <Button className="gap-1 mt-12 justify-end">
                                     <ArrowLeft />
                                     Return
                                 </Button>

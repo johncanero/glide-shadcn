@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 const Navbar = () => {
     return (
         <div>
-            <div className="flex justify-between px-4 py-8 md:px-8 md:pt-6 lg:px-32 lg:pt-8">
+            <div className="flex justify-between px-4 py-4 md:py-8 md:px-8 md:pt-6 lg:px-32 lg:pt-8">
                 {/* Logo */}
                 <div className='flex'>
                     <Link href="/">
@@ -28,12 +28,12 @@ const Navbar = () => {
                             height={35}
                         />
                     </Link>
-                    <h1 className='hidden ml-4 text-4xl font-extrabold text-center md:block dark:text-white text-neutral-800'>
+                    <h1 className=' ml-4 text-3xl md:text-4xl font-extrabold text-center md:block dark:text-white text-neutral-800'>
                         glider
                     </h1>
                 </div>
 
-                <div className="hidden mt-2 md:flex lg:gap-16">
+                <div className="hidden mt-2 lg:flex lg:gap-16">
                     <Link href="/">
                         <p className="font-medium hover:underline hover:underline-offset-4">Home</p>
                     </Link>
@@ -51,13 +51,17 @@ const Navbar = () => {
                     </Link>
                 </div>
 
-
-                <div className="flex items-center justify-center space-x-4">
+                {/* Desktop */}
+                <div className="hidden lg:flex items-center justify-center space-x-4">
                     <Button className="w-auto px-4 py-4 text-white rounded-md bg-zinc-800 hover:bg-zinc-900">Get GliderSwift</Button>
                 </div>
 
 
                 <div className="flex gap-2">
+                    {/* Tablet */}
+                    <div className="hidden md:block lg:hidden items-center justify-center space-x-4">
+                        <Button className="w-auto px-4 py-4 text-white rounded-md bg-zinc-800 hover:bg-zinc-900">Get GliderSwift</Button>
+                    </div>
                     <ModeToggle />
                     <SheetSide />
                 </div>
