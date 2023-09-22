@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
  
+.darkenImage {
+    filter: brightness(50%); /* Adjust the percentage to control darkness */
+}
