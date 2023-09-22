@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-    title: 'About / Glider',
+    title: 'Careers / Glider',
     description: 'Glider: Scooter sharing made simple',
     icons: {
         icon: '/images/logo/eBikeLogo2.png',
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     },
 }
 
-const AboutLayout = ({
+const CareersLayout = ({
     children
 }: {
     children: React.ReactNode;
@@ -29,4 +29,4 @@ const AboutLayout = ({
     );
 }
 
-export default AboutLayout;
+export default CareersLayout;

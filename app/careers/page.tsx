@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const About = () => {
+const Careers = () => {
     return ( 
         <div>
             <div>
@@ -16,4 +16,4 @@ const About = () => {
      );
 }
  
-export default About;
+export default Careers;

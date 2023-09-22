@@ -33,7 +33,7 @@ export function SheetSide() {
                             <Menu />
                         </Button>
                     </SheetTrigger>
-                    <SheetContent side={side}>
+                    <SheetContent side={side} className="bg-white dark:bg-zinc-900">
                         <SheetHeader>
                             <SheetTitle className="text-3xl font-bold">glider</SheetTitle>
                             <SheetDescription>

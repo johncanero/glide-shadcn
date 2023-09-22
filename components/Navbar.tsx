@@ -49,7 +49,7 @@ const Navbar = () => {
 
 
                 <div className="flex items-center justify-center space-x-4">
-                    <Button className="w-auto px-4 py-4 text-white rounded-md bg-zinc-900 hover:bg-zinc-800">Get GliderSwift</Button>
+                    <Button className="w-auto px-4 py-4 text-white rounded-md bg-zinc-800 hover:bg-zinc-900">Get GliderSwift</Button>
                 </div>
 
 
