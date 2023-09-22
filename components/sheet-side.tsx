@@ -43,24 +43,25 @@ export function SheetSide() {
 
                         <div className="mt-4">
                             <Link href="/">
-                                <div className="mt-1">Overview</div>
+                                <p className="mt-1 font-semibold">Overview</p>
                             </Link>
+
                             <Link href="/about">
-                                <div className="mt-2">About</div>
+                                <p className="mt-2 font-semibold">About</p>
                             </Link>
 
-                            <Link href="/">
-                                <div className="mt-2">Location</div>
+                            <Link href="/about">
+                                <p className="mt-2 font-semibold">Location</p>
                             </Link>
 
-                            <Link href="/">
-                                <div className="mt-2">Careers</div>
+                            <Link href="/about">
+                                <p className="mt-2 font-semibold">Careers</p>
                             </Link>
 
-
-                            <Link href="/">
-                                <div className="mt-2">Contact</div>
+                            <Link href="/about">
+                                <p className="mt-2 font-semibold">Contact</p>
                             </Link>
+                      
                         </div>
 
                         <SheetFooter>

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link";
 import { ModeToggle } from "./darkmode/mode-toggle";
 import { SheetSide } from "./sheet-side";
 import { Button } from "./ui/button";
@@ -10,8 +11,15 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className='flex'>
                     <Image
-                        className='md:mx-0'
+                        className='md:mx-0 dark:hidden'
                         src='/images/logo/eBikeLogo.png'
+                        alt='eBikeLogo.png'
+                        width={35}
+                        height={35}
+                    />
+                    <Image
+                        className='hidden md:mx-0 dark:block'
+                        src='/images/logo/eBikeLogo2.png'
                         alt='eBikeLogo.png'
                         width={35}
                         height={35}
@@ -22,10 +30,21 @@ const Navbar = () => {
                 </div>
 
                 <div className="hidden mt-2 md:flex lg:gap-16">
-                    <p>About</p>
-                    <p>Location</p>
-                    <p>Careers</p>
-                    <p>Contact</p>
+                    <Link href="/">
+                        <p className="font-medium hover:underline hover:underline-offset-4">Home</p>
+                    </Link>
+                    <Link href="/about">
+                        <p className="font-medium hover:underline hover:underline-offset-4">About</p>
+                    </Link>
+                    <Link href="/location">
+                        <p className="font-medium hover:underline hover:underline-offset-4">Location</p>
+                    </Link>
+                    <Link href="/careers">
+                        <p className="font-medium hover:underline hover:underline-offset-4">Careers</p>
+                    </Link>
+                    <Link href="/contact">
+                        <p className="font-medium hover:underline hover:underline-offset-4">Contact</p>
+                    </Link>
                 </div>
 
 
@@ -34,7 +53,7 @@ const Navbar = () => {
                 </div>
 
 
-                <div className="flex">
+                <div className="flex gap-2">
                     <ModeToggle />
                     <SheetSide />
                 </div>

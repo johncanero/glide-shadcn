@@ -6,8 +6,8 @@ import { ThemeProvider } from "@/components/darkmode/theme-provider"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Shadcn Demo',
-  description: 'Shadcn Demo: Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. ',
+  title: 'Glider',
+  description: 'Glider: Scooter sharing made simple',
   icons: {
     icon: '/images/logo/shadcnUILogo.png',
     shortcut: '/images/logo/shadcnUILogo.pngg',
