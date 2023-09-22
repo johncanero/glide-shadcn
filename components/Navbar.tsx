@@ -10,20 +10,24 @@ const Navbar = () => {
             <div className="flex justify-between px-4 py-8 md:px-8 md:pt-6 lg:px-32 lg:pt-8">
                 {/* Logo */}
                 <div className='flex'>
-                    <Image
-                        className='md:mx-0 dark:hidden'
-                        src='/images/logo/eBikeLogo.png'
-                        alt='eBikeLogo.png'
-                        width={35}
-                        height={35}
-                    />
-                    <Image
-                        className='hidden md:mx-0 dark:block'
-                        src='/images/logo/eBikeLogo2.png'
-                        alt='eBikeLogo.png'
-                        width={35}
-                        height={35}
-                    />
+                    <Link href="/">
+                        <Image
+                            className='md:mx-0 dark:hidden'
+                            src='/images/logo/eBikeLogo.png'
+                            alt='eBikeLogo.png'
+                            width={35}
+                            height={35}
+                        />
+                    </Link>
+                    <Link href="/">
+                        <Image
+                            className='hidden md:mx-0 dark:block'
+                            src='/images/logo/eBikeLogo2.png'
+                            alt='eBikeLogo.png'
+                            width={35}
+                            height={35}
+                        />
+                    </Link>
                     <h1 className='hidden ml-4 text-4xl font-extrabold text-center md:block dark:text-white text-neutral-800'>
                         glider
                     </h1>
