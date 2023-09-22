@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   title: 'Glider',
   description: 'Glider: Scooter sharing made simple',
   icons: {
-    icon: '/images/logo/eBikeLogo2.png',
-    shortcut: '/images/logo/eBikeLogo2.png',
+    icon: '/images/logo/eScooterLogo2.png',
+    shortcut: '/images/logo/eScooterLogo2.png',
   },
 }
 

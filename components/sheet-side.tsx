@@ -43,30 +43,30 @@ export function SheetSide() {
 
                         <div className="mt-4">
                             <Link href="/">
-                                <p className="mt-1 font-semibold">Overview</p>
+                                <p className="mt-1 font-medium">Overview</p>
                             </Link>
 
                             <Link href="/about">
-                                <p className="mt-2 font-semibold">About</p>
+                                <p className="mt-2 font-medium">About</p>
                             </Link>
 
                             <Link href="/about">
-                                <p className="mt-2 font-semibold">Location</p>
+                                <p className="mt-2 font-medium">Location</p>
                             </Link>
 
                             <Link href="/about">
-                                <p className="mt-2 font-semibold">Careers</p>
+                                <p className="mt-2 font-medium">Careers</p>
                             </Link>
 
                             <Link href="/about">
-                                <p className="mt-2 font-semibold">Contact</p>
+                                <p className="mt-2 font-medium">Contact</p>
                             </Link>
                       
                         </div>
 
                         <SheetFooter>
                             <SheetClose asChild>
-                                <Button className="gap-1 mt-12 justify-end">
+                                <Button className="justify-end gap-1 mt-12">
                                     <ArrowLeft />
                                     Return
                                 </Button>

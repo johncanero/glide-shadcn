@@ -7,14 +7,14 @@ import { Button } from "./ui/button";
 const Navbar = () => {
     return (
         <div>
-            <div className="flex justify-between px-4 py-4 md:py-8 md:px-8 md:pt-6 lg:px-36 lg:pt-8">
+            <div className="flex justify-between px-4 py-4 md:py-8 md:px-14 md:pt-6 lg:pt-8">
                 {/* Logo */}
                 <div className='flex'>
                     <Link href="/">
                         <Image
                             className='md:mx-0 dark:hidden'
-                            src='/images/logo/eBikeLogo.png'
-                            alt='eBikeLogo.png'
+                            src='/images/logo/eScooterLogo.png'
+                            alt='eScooterLogo.png'
                             width={35}
                             height={35}
                         />
@@ -22,8 +22,8 @@ const Navbar = () => {
                     <Link href="/">
                         <Image
                             className='hidden md:mx-0 dark:block'
-                            src='/images/logo/eBikeLogo2.png'
-                            alt='eBikeLogo.png'
+                            src='/images/logo/eScooterLogo2.png'
+                            alt='eScooterLogo2.png'
                             width={35}
                             height={35}
                         />
@@ -33,6 +33,7 @@ const Navbar = () => {
                     </h1>
                 </div>
 
+                {/* Desktop */}
                 <div className="hidden mt-2 lg:flex lg:gap-14">
                     <Link href="/">
                         <p className="font-medium hover:underline hover:underline-offset-4">Home</p>
@@ -53,14 +54,14 @@ const Navbar = () => {
 
                 {/* Desktop */}
                 <div className="items-center justify-center hidden space-x-4 lg:flex">
-                    <Button className="w-auto px-4 py-4 text-white rounded-md bg-zinc-800 hover:bg-zinc-900">Get GliderSwift</Button>
+                    <Button className="w-auto px-8 py-6 text-white bg-zinc-800 hover:bg-zinc-900 rounded-xl">Get GliderSwift</Button>
                 </div>
 
 
-                <div className="flex gap-2">
+                <div className="flex lg:gap-2">
                     {/* Tablet */}
-                    <div className="items-center justify-center hidden space-x-4 md:block lg:hidden">
-                        <Button className="w-auto px-4 py-4 text-white rounded-md bg-zinc-800 hover:bg-zinc-900">Get GliderSwift</Button>
+                    <div className="items-center justify-center hidden mr-4 space-x-4 md:block lg:hidden">
+                        <Button className="w-auto px-4 py-4 text-white bg-zinc-800 hover:bg-zinc-900 rounded-xl">Get GliderSwift</Button>
                     </div>
                     <ModeToggle />
                     <SheetSide />
