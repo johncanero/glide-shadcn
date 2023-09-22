@@ -3,7 +3,15 @@ import Image from 'next/image'
 export default function Home() {
     return (
         <div>
-
+            <div>
+                <Image
+                    src="/images/gliderBackground.jpg"
+                    width={1200}
+                    height={1000}
+                    alt="Glider Background"
+                    className='w-full'
+                />
+            </div>
         </div>
     )
 }

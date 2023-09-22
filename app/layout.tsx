@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: 'Glider',
   description: 'Glider: Scooter sharing made simple',
   icons: {
-    icon: '/images/logo/shadcnUILogo.png',
-    shortcut: '/images/logo/shadcnUILogo.pngg',
+    icon: '/images/logo/eBikeLogo2.png',
+    shortcut: '/images/logo/eBikeLogo2.png',
   },
 }
 

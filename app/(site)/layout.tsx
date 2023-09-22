@@ -10,7 +10,7 @@ const SiteLayout = ({
         <>
             <div className="flex flex-col min-h-screen">
                 <Navbar />
-                <div className="flex-grow">
+                <div className="flex-grow mx-auto">
                     {children}
                 </div>
                 <Footer />
