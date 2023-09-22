@@ -1,9 +1,21 @@
 import '../styles/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import { ThemeProvider } from "@/components/darkmode/theme-provider"
 
+// sample fonts
 const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '700'],
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '700'],
+})
 
 export const metadata: Metadata = {
   title: 'Glider',
@@ -22,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" className='h-screen'>
       <body
-        className={`${inter.className} rounded-ee-3xl flex-grow`}
+        className={`${montserrat.className} rounded-ee-3xl flex-grow`}
       >
         <ThemeProvider
           attribute="class"
