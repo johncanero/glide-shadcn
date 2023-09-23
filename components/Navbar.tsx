@@ -54,14 +54,14 @@ const Navbar = () => {
 
                 {/* Desktop */}
                 <div className="items-center justify-center hidden space-x-4 lg:flex">
-                    <Button className="w-auto px-8 py-6 text-white bg-zinc-800 hover:bg-zinc-900 rounded-xl">Get GliderSwift</Button>
+                    <Button className="w-auto px-8 py-6 bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white rounded-xl">Get GliderSwift</Button>
                 </div>
 
 
                 <div className="flex lg:gap-2">
                     {/* Tablet */}
                     <div className="items-center justify-center hidden mr-4 space-x-4 md:block lg:hidden">
-                        <Button className="w-auto px-4 py-4 text-white bg-zinc-800 hover:bg-zinc-900 rounded-xl">Get GliderSwift</Button>
+                        <Button className="w-auto px-4 py-4 bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white rounded-xl">Get GliderSwift</Button>
                     </div>
                     <ModeToggle />
                     <SheetSide />

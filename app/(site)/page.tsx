@@ -5,13 +5,14 @@ import { Button } from '@/components/ui/button'
 export default function Home() {
     return (
         <div className="relative">
+            {/* Desktop */}
             <div>
                 <Image
                     src="/images/gliderBackground.jpg"
                     width={1400}
                     height={1000}
                     alt="Glider Background"
-                    className='mx-auto opacity-100 lg:max-w-full dark:opacity-70 lg:rounded-3xl'
+                    className='mx-auto opacity-100 lg:max-w-full hidden lg:block dark:opacity-70 lg:rounded-3xl'
                 />
             </div>
 
@@ -29,7 +30,7 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* Desktop - Arrow */}
+            {/* Desktop - Line*/}
             <div className='hidden lg:absolute lg:block lg:top-96 lg:left-0'>
                 <Image
                     src="/images/patterns/lineWhite.png"
@@ -52,7 +53,7 @@ export default function Home() {
             </div>
 
             {/* Desktop - Circles */}
-            <div className='hidden lg:absolute lg:block lg:bottom-64 lg:right-20'>
+            <div className='hidden lg:absolute lg:block lg:bottom-64 lg:right-16'>
                 <Image
                     src="/images/patterns/white-circles.png"
                     width={250}
@@ -61,6 +62,53 @@ export default function Home() {
                     className='mx-auto'
                 />
             </div>
+
+            {/* Tablet */}
+            <div className='hidden lg:hidden md:flex md:items-center md:justify-center relative'>
+                <Image
+                    src="/images/gliderBackground.jpg"
+                    width={1400}
+                    height={1000}
+                    alt="Glider Background"
+                    className='max-w-full'
+                />
+                
+                <div className="absolute top-52 left-1/4 transform -translate-x-24 -translate-y-1/2 text-white text-center bg-black bg-opacity-50 p-6 rounded-3xl">
+                    <h1 className="font-bold text-5xl">Scooter sharing made simple</h1>
+                    <div className='mt-6'>
+                        <p>Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities.</p>
+                        <p className='mt-2'>Use our app to locate the nearest scooter, unlock it with a tap, and you're away!</p>
+                    </div>
+                </div>
+                <div className="items-center space-x-4 flex mt-7 absolute bottom-24 left-1/2 transform -translate-x-1/2">
+                    <Button className="z-10 w-auto px-8 py-6 rounded-xl bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white">Get GliderSwift</Button>
+                </div>
+            </div>
+
+            {/* Tablet - Arrow */}
+            <div className='hidden lg:hidden md:absolute md:block md:bottom-2 md:left-0'>
+                <Image
+                    src="/images/patterns/right-arrowWhite.png"
+                    width={350}
+                    height={350}
+                    alt="Right Arrow"
+                    className='mx-auto'
+                />
+            </div>
+
+
+            {/* Tablet - Circles */}
+            <div className='hidden md:absolute lg:hidden md:block md:bottom-4 md:right-6'>
+                <Image
+                    src="/images/patterns/white-circles.png"
+                    width={180}
+                    height={180}
+                    alt="White Cirlces"
+                    className='mx-auto'
+                />
+            </div>
+
+
 
         </div>
     )
