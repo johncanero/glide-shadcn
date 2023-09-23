@@ -2,6 +2,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -35,7 +36,27 @@ export function SheetSide() {
                     </SheetTrigger>
                     <SheetContent side={side} className="bg-white dark:bg-zinc-900">
                         <SheetHeader>
-                            <SheetTitle className="mt-4 text-3xl font-bold">glider</SheetTitle>
+                            <div className="flex">
+                                <Link href="/">
+                                    <Image
+                                        className='md:mx-0 dark:hidden mt-4 mr-4'
+                                        src='/images/logo/eScooterLogo.png'
+                                        alt='eScooterLogo.png'
+                                        width={35}
+                                        height={35}
+                                    />
+                                </Link>
+                                <Link href="/">
+                                    <Image
+                                        className='hidden md:mx-0 dark:block mt-4 mr-4'
+                                        src='/images/logo/eScooterLogo2.png'
+                                        alt='eScooterLogo2.png'
+                                        width={35}
+                                        height={35}
+                                    />
+                                </Link>
+                                <SheetTitle className="mt-4 text-3xl font-bold">glider</SheetTitle>
+                            </div>
                             <SheetDescription>
                                 {/* Make changes to y   our profile here. Click save when you're done. */}
                             </SheetDescription>
@@ -61,7 +82,7 @@ export function SheetSide() {
                             <Link href="/about">
                                 <p className="mt-2 font-medium">Contact</p>
                             </Link>
-                      
+
                         </div>
 
                         <SheetFooter>

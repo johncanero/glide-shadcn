@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 const Navbar = () => {
     return (
         <div>
-            <div className="flex justify-between px-4 py-4 md:py-8 md:px-24 md:pt-6 lg:pt-8">
+            <div className="flex justify-between px-4 py-4 md:py-8 md:px-8 lg:px-24 md:pt-6 lg:pt-8">
                 {/* Logo */}
                 <div className='flex'>
                     <Link href="/">
