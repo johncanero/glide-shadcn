@@ -111,14 +111,14 @@ export default function Home() {
             {/* Mobile */}
             <div className='md:hidden flex items-center justify-center relative'>
                 <Image
-                    src="/images/gliderBackgroundDesktop.jpg"
+                    src="/images/gliderBackgroundMobile.jpg"
                     width={1400}
                     height={1000}
                     alt="Glider Background"
                     className='max-w-full'
                 />
 
-                <div className="absolute top-52 left-1/4 transform -translate-x-24 -translate-y-1/2 text-white text-center bg-black bg-opacity-50 p-6 rounded-3xl">
+                <div className="absolute top-52 left-1/4 transform -translate-x-12 -translate-y-36 text-white text-center bg-black bg-opacity-50 p-6 rounded-3xl">
                     <h1 className="font-bold text-5xl">Scooter sharing made simple</h1>
                     <div className='mt-6'>
                         <p>Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities.</p>
@@ -128,6 +128,17 @@ export default function Home() {
                 <div className="items-center space-x-4 flex mt-7 absolute bottom-24 left-1/2 transform -translate-x-1/2">
                     <Button className="z-10 w-auto px-8 py-6 rounded-xl bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white">Get GliderSwift</Button>
                 </div>
+            </div>
+
+            {/* Mobile - Arrow */}
+            <div className='md:hidden absolute bottom-2 left-0'>
+                <Image
+                    src="/images/patterns/right-arrowWhite.png"
+                    width={200}
+                    height={200}
+                    alt="Right Arrow"
+                    className='mx-auto'
+                />
             </div>
         </div>
     )
