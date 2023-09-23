@@ -8,7 +8,7 @@ export default function Home() {
             {/* Desktop */}
             <div>
                 <Image
-                    src="/images/gliderBackground.jpg"
+                    src="/images/gliderBackgroundDesktop.jpg"
                     width={1400}
                     height={1000}
                     alt="Glider Background"
@@ -66,13 +66,58 @@ export default function Home() {
             {/* Tablet */}
             <div className='hidden lg:hidden md:flex md:items-center md:justify-center relative'>
                 <Image
-                    src="/images/gliderBackground.jpg"
+                    src="/images/gliderBackgroundTablet.jpg"
                     width={1400}
                     height={1000}
                     alt="Glider Background"
                     className='max-w-full'
                 />
                 
+                <div className="absolute top-64 left-1/4 transform -translate-x-24 -translate-y-1/2 text-white text-center bg-black bg-opacity-50 p-6 rounded-3xl">
+                    <h1 className="font-bold text-5xl">Scooter sharing made simple</h1>
+                    <div className='mt-6'>
+                        <p>Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities.</p>
+                        <p className='mt-2'>Use our app to locate the nearest scooter, unlock it with a tap, and you're away!</p>
+                    </div>
+                </div>
+                <div className="items-center space-x-4 flex mt-7 absolute bottom-44 left-1/2 transform -translate-x-1/2">
+                    <Button className="z-10 w-auto px-8 py-6 rounded-xl bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white">Get GliderSwift</Button>
+                </div>
+            </div>
+
+            {/* Tablet - Arrow */}
+            <div className='hidden lg:hidden md:absolute md:block md:bottom-12 md:left-0'>
+                <Image
+                    src="/images/patterns/right-arrowWhite.png"
+                    width={350}
+                    height={350}
+                    alt="Right Arrow"
+                    className='mx-auto'
+                />
+            </div>
+
+            {/* Tablet - Circles */}
+            <div className='hidden md:absolute lg:hidden md:block md:bottom-14 md:right-8'>
+                <Image
+                    src="/images/patterns/white-circles.png"
+                    width={200}
+                    height={200}
+                    alt="White Cirlces"
+                    className='mx-auto'
+                />
+            </div>
+
+
+            {/* Mobile */}
+            <div className='md:hidden flex items-center justify-center relative'>
+                <Image
+                    src="/images/gliderBackgroundDesktop.jpg"
+                    width={1400}
+                    height={1000}
+                    alt="Glider Background"
+                    className='max-w-full'
+                />
+
                 <div className="absolute top-52 left-1/4 transform -translate-x-24 -translate-y-1/2 text-white text-center bg-black bg-opacity-50 p-6 rounded-3xl">
                     <h1 className="font-bold text-5xl">Scooter sharing made simple</h1>
                     <div className='mt-6'>
@@ -84,32 +129,6 @@ export default function Home() {
                     <Button className="z-10 w-auto px-8 py-6 rounded-xl bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white">Get GliderSwift</Button>
                 </div>
             </div>
-
-            {/* Tablet - Arrow */}
-            <div className='hidden lg:hidden md:absolute md:block md:bottom-2 md:left-0'>
-                <Image
-                    src="/images/patterns/right-arrowWhite.png"
-                    width={350}
-                    height={350}
-                    alt="Right Arrow"
-                    className='mx-auto'
-                />
-            </div>
-
-
-            {/* Tablet - Circles */}
-            <div className='hidden md:absolute lg:hidden md:block md:bottom-4 md:right-6'>
-                <Image
-                    src="/images/patterns/white-circles.png"
-                    width={180}
-                    height={180}
-                    alt="White Cirlces"
-                    className='mx-auto'
-                />
-            </div>
-
-
-
         </div>
     )
 }
