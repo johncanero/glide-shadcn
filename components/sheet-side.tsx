@@ -39,7 +39,7 @@ export function SheetSide() {
                             <div className="flex">
                                 <Link href="/">
                                     <Image
-                                        className='md:mx-0 dark:hidden mt-4 mr-4'
+                                        className='md:mx-0 dark:hidden mt-4 mr-4 md:mr-4 lg:mr-4'
                                         src='/images/logo/eScooterLogo.png'
                                         alt='eScooterLogo.png'
                                         width={35}
@@ -48,7 +48,7 @@ export function SheetSide() {
                                 </Link>
                                 <Link href="/">
                                     <Image
-                                        className='hidden md:mx-0 dark:block mt-4 mr-4'
+                                        className='hidden md:mx-0 dark:block mt-4 mr-4 md:mr-4 lg:mr-4'
                                         src='/images/logo/eScooterLogo2.png'
                                         alt='eScooterLogo2.png'
                                         width={35}
