@@ -166,23 +166,42 @@ export default function Home() {
             </div>
 
 
-            {/* Learn More */}
-            <div className='mb-12 lg:mt-36'>
-                <div className='lg:flex justify-center mx-[250px]'>
+            {/* Desktop - Learn More */}
+            <div className='mb-12 mt-20 md:mt-36'>
+                <div className='flex-wrap lg:flex-nowrap flex justify-center lg:mx-[200px]'>
                     <div className='order-1 lg:order-3'> {/* This line controls the order */}
                         <Image
                             src="/images/telemetry.jpg"
                             width={700}
                             height={700}
                             alt="Telemetry"
-                            className='rounded-full'
+                            className='rounded-full max-w-[300px] md:max-w-sm lg:max-w-full'
                         />
                     </div>
+                    <div className='order-1 lg:order-2 mt-12'> {/* This line controls the order */}
+                        <h2 className='font-bold text-center lg:text-left text-3xl md:text-5xl md:mx-12 lg:mx-0 lg:w-4/6'>Easy to use riding telemetry</h2>
+                        <p className='mx-8 md:mx-32 lg:mx-0 lg:w-4/6 text-center lg:text-left mt-6 md:mt-8'>The Glider app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
+                        <Button className="px-16 md:px-8 py-6 text-white flex mx-auto lg:mx-0 mt-12 rounded-xl bg-zinc-900 hover:bg-zinc-900 dark:text-white dark:hover:text-black dark:hover:bg-white hover:font-semibold  dark:hover:border-zinc-50">Learn More</Button>
 
-                    <div className='order-1 lg:order-2 lg:mt-12'> {/* This line controls the order */}
-                        <h2 className='font-bold lg:text-5xl lg:w-4/6'>Easy to use riding telemetry</h2>
-                        <p className='lg:w-5/6 lg:mt-8'>The Glider app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
-                        <Button className="px-8 py-6 text-white lg:mt-12 rounded-xl bg-zinc-900 hover:bg-zinc-900 dark:text-white dark:hover:text-white hover:font-semibold dark:hover:border-dashed dark:hover:border-2 dark:hover:border-zinc-50">Learn More</Button>
+                        {/* Desktop - Arrow */}
+                        <div className='lg:relative'>
+                            <div className='hidden lg:absolute lg:block lg:bottom-0 lg:-right-[460px]'>
+                                <Image
+                                    src="/images/patterns/left-downward-arrow.png"
+                                    width={700}
+                                    height={700}
+                                    alt="Left Arrow"
+                                />
+                            </div>
+                            <div className='hidden dark:hidden lg:absolute lg:block lg:bottom-0 lg:-right-[460px]'>
+                                <Image
+                                    src="/images/patterns/left-downward-arrowBlack.png"
+                                    width={700}
+                                    height={700}
+                                    alt="Left Arrow"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
