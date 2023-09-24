@@ -19,21 +19,21 @@ export default function Home() {
                 </div>
 
                 {/* Desktop */}
-                <div className='hidden lg:absolute lg:top-44 lg:left-44 lg:block'>
+                <div className='hidden lg:absolute lg:top-44 lg:left-80 lg:block'>
                     <div className="max-w-2xl p-6 text-white bg-black bg-opacity-50 rounded-3xl md:hidden lg:block">
                         <h1 className="font-bold text-7xl">Scooter sharing made simple</h1>
                         <div className='mt-6'>
-                            <p>Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities.</p>
+                            <p>Glider streamlines urban transportation, with our scooters strategically positioned in convenient spots across all our city locations, making mobility hassle-free.</p>
                             <p className='mt-2'>Use our app to locate the nearest scooter, unlock it with a tap, and you're away!</p>
                         </div>
                     </div>
                     <div className="items-center hidden space-x-4 lg:flex">
-                        <Button className="z-10 w-auto px-8 py-6 mt-7 rounded-xl bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white">Get GliderSwift</Button>
+                        <Button className="z-10 w-auto px-8 py-6 mt-7 rounded-xl bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white hover:font-bold">Get GliderSwift</Button>
                     </div>
                 </div>
 
                 {/* Desktop - Line*/}
-                <div className='hidden lg:absolute lg:block lg:top-96 lg:left-0'>
+                <div className='hidden lg:absolute lg:block lg:top-96 lg:left-36'>
                     <Image
                         src="/images/patterns/lineWhite.png"
                         width={175}
@@ -44,7 +44,7 @@ export default function Home() {
                 </div>
 
                 {/* Desktop - Arrow */}
-                <div className='hidden lg:absolute lg:block lg:bottom-60 lg:right-96'>
+                <div className='hidden lg:absolute lg:block lg:bottom-52 lg:right-1/3'>
                     <Image
                         src="/images/patterns/right-arrowWhite.png"
                         width={500}
@@ -55,7 +55,7 @@ export default function Home() {
                 </div>
 
                 {/* Desktop - Circles */}
-                <div className='hidden lg:absolute lg:block lg:bottom-64 lg:right-16'>
+                <div className='hidden lg:absolute lg:block lg:bottom-60 lg:right-48'>
                     <Image
                         src="/images/patterns/white-circles.png"
                         width={250}
@@ -121,7 +121,7 @@ export default function Home() {
                     />
 
                     <div className="absolute p-6 text-center text-white transform -translate-x-12 bg-black bg-opacity-50 top-52 left-1/4 -translate-y-36 rounded-3xl">
-                        <h1 className="text-5xl font-bold">Scooter sharing made simple</h1>
+                        <h1 className="text-3xl font-bold md:text-5xl">Scooter sharing made simple</h1>
                         <div className='mt-6'>
                             <p>Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities.</p>
                             <p className='mt-2'>Use our app to locate the nearest scooter, unlock it with a tap, and you're away!</p>
@@ -144,9 +144,8 @@ export default function Home() {
                 </div>
             </div>
 
-
+            {/* Cards */}
             <div>
-                {/* Absolute Line */}
                 <div className='flex flex-wrap justify-center mt-8 gap-x-16'>
                     <CardDemo
                         icon='/images/icons/locate.png'
@@ -156,15 +155,38 @@ export default function Home() {
                     <CardDemo
                         icon='/images/icons/scooter.png'
                         title='Pick your scooter'
-                        description='We show the most important info for the scooters closest to you.So you know how much charge they have left and can see roughly how much it will cost.'
+                        description='We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.'
                     />
                     <CardDemo
                         icon='/images/icons/ride.png'
                         title='Enjoy the ride'
-                        description='Scan the QR code and the bike will unlock.Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.'
+                        description='Scan the QR code and the scooter will unlock. Retract the cable lock, put on a helmet, and you are off! Always lock scooters away from walkways and accessibility ramps.'
                     />
                 </div>
             </div>
+
+
+            {/* Learn More */}
+            <div className='mb-12 lg:mt-36'>
+                <div className='lg:flex justify-center mx-[250px]'>
+                    <div className='order-1 lg:order-3'> {/* This line controls the order */}
+                        <Image
+                            src="/images/telemetry.jpg"
+                            width={700}
+                            height={700}
+                            alt="Telemetry"
+                            className='rounded-full'
+                        />
+                    </div>
+
+                    <div className='order-1 lg:order-2 lg:mt-12'> {/* This line controls the order */}
+                        <h2 className='font-bold lg:text-5xl lg:w-4/6'>Easy to use riding telemetry</h2>
+                        <p className='lg:w-5/6 lg:mt-8'>The Glider app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
+                        <Button className="px-8 py-6 text-white lg:mt-12 rounded-xl bg-zinc-900 hover:bg-zinc-900 dark:text-white dark:hover:text-white hover:font-semibold dark:hover:border-dashed dark:hover:border-2 dark:hover:border-zinc-50">Learn More</Button>
+                    </div>
+                </div>
+            </div>
+
 
 
         </div>
