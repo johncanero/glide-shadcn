@@ -133,11 +133,11 @@ export default function Home() {
                 </div>
 
                 {/* Mobile - Arrow */}
-                <div className='absolute left-0 md:hidden bottom-2'>
+                <div className='absolute left-0 md:hidden bottom-3'>
                     <Image
-                        src="/images/patterns/right-arrowWhite.png"
-                        width={200}
-                        height={200}
+                        src="/images/patterns/right-arrowLittleWhite.png"
+                        width={120}
+                        height={120}
                         alt="Right Arrow"
                         className='mx-auto'
                     />
@@ -184,21 +184,23 @@ export default function Home() {
                         <Button className="px-16 md:px-8 py-6 text-white flex mx-auto lg:mx-0 mt-12 rounded-xl bg-zinc-900 hover:bg-zinc-900 dark:text-white dark:hover:text-black dark:hover:bg-white hover:font-semibold  dark:hover:border-zinc-50">Learn More</Button>
 
                         {/* Desktop - Arrow */}
-                        <div className='lg:relative'>
-                            <div className='hidden lg:absolute lg:block lg:bottom-0 lg:-right-[460px]'>
+                        <div className='md:relative'>
+                            <div className='hidden dark:md:block absolute md:bottom-[400px] md:right-0 lg:bottom-0 lg:-right-[460px]'>
                                 <Image
                                     src="/images/patterns/left-downward-arrow.png"
                                     width={700}
                                     height={700}
                                     alt="Left Arrow"
+                                    className='max-w-full md:max-w-2xl lg:max-w-full'
                                 />
                             </div>
-                            <div className='hidden dark:hidden lg:absolute lg:block lg:bottom-0 lg:-right-[460px]'>
+                            <div className='hidden dark:hidden md:absolute md:block md:bottom-[400px] md:right-0 lg:bottom-0 lg:-right-[460px]'>
                                 <Image
                                     src="/images/patterns/left-downward-arrowBlack.png"
                                     width={700}
                                     height={700}
                                     alt="Left Arrow"
+                                    className='md:max-w-2xl lg:max-w-full'
                                 />
                             </div>
                         </div>
