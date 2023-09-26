@@ -166,8 +166,8 @@ export default function Home() {
             </div>
 
 
-            {/* Desktop - Learn More */}
-            <div className='mb-12 mt-20 md:mt-36'>
+            {/* Learn More - 1 */}
+            <div className='mt-20 mb-12 md:mt-36'>
                 <div className='flex-wrap lg:flex-nowrap flex justify-center lg:mx-[200px]'>
                     <div className='order-1 lg:order-3'> {/* This line controls the order */}
                         <Image
@@ -178,10 +178,10 @@ export default function Home() {
                             className='rounded-full max-w-[300px] md:max-w-sm lg:max-w-full'
                         />
                     </div>
-                    <div className='order-1 lg:order-2 mt-12'> {/* This line controls the order */}
-                        <h2 className='font-bold text-center lg:text-left text-3xl md:text-5xl md:mx-12 lg:mx-0 lg:w-4/6'>Easy to use riding telemetry</h2>
-                        <p className='mx-8 md:mx-32 lg:mx-0 lg:w-4/6 text-center lg:text-left mt-6 md:mt-8'>The Glider app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
-                        <Button className="px-16 md:px-8 py-6 text-white flex mx-auto lg:mx-0 mt-12 rounded-xl bg-zinc-900 hover:bg-zinc-900 dark:text-white dark:hover:text-black dark:hover:bg-white hover:font-semibold  dark:hover:border-zinc-50">Learn More</Button>
+                    <div className='order-1 mt-12 lg:order-2'> {/* This line controls the order */}
+                        <h2 className='text-3xl font-bold text-center lg:text-left md:text-5xl md:mx-12 lg:mx-0 lg:w-4/6'>Easy to use riding telemetry</h2>
+                        <p className='mx-8 mt-6 text-center md:mx-32 lg:mx-0 lg:w-4/6 lg:text-left md:mt-8'>The Glider app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
+                        <Button className="flex px-16 py-6 mx-auto mt-12 text-white md:px-8 lg:mx-0 rounded-xl bg-zinc-900 hover:bg-zinc-900 dark:text-white dark:hover:text-black dark:hover:bg-white hover:font-semibold dark:hover:border-zinc-50">Learn More</Button>
 
                         {/* Desktop - Arrow */}
                         <div className='md:relative'>
@@ -208,6 +208,68 @@ export default function Home() {
                 </div>
             </div>
 
+            {/* Learn More - 2 */}
+            <div className='mt-20 mb-12 md:mt-36'>
+                <div className='flex-wrap flex justify-center lg:flex-nowrap lg:justify-between lg:mx-[200px]'>
+                    <div>
+                        <Image
+                            src="/images/city.jpg"
+                            width={700}
+                            height={700}
+                            alt="City"
+                            className='rounded-full max-w-[300px] md:max-w-sm lg:max-w-[400px]'
+                        />
+                    </div>
+           
+                    <div className='mt-12 lg:w-3/6'>
+                        <h2 className='text-3xl font-bold text-center lg:text-left md:text-5xl md:mx-12 lg:mx-0 lg:w-4/6'>Coming to a city near you</h2>
+                        <p className='mx-8 mt-6 text-center md:mx-32 lg:mx-0 lg:w-5/6 lg:text-left md:mt-8'>Glider is available in 3 major cities so far: Manila, Cebu and Davao. We're expanding rapidly, so be sure to let us know if you want to see us in your hometown. We're aiming to let our scooters loose on seventeen (17) regions in the Philippines. </p>
+                        <Button className="flex px-16 py-6 mx-auto mt-12 text-white md:px-8 lg:mx-0 rounded-xl bg-zinc-900 hover:bg-zinc-900 dark:text-white dark:hover:text-black dark:hover:bg-white hover:font-semibold dark:hover:border-zinc-50">Learn More</Button>
+                    </div>
+                </div>
+            </div>
+
+            {/* Learn More - 3 */}
+            <div className='mt-20 mb-12 md:mt-36'>
+                <div className='flex-wrap lg:flex-nowrap flex justify-center lg:mx-[200px]'>
+                    <div className='order-1 lg:order-3'> {/* This line controls the order */}
+                        <Image
+                            src="/images/payment.jpg"
+                            width={700}
+                            height={700}
+                            alt="Payment"
+                            className='rounded-full max-w-[300px] md:max-w-sm lg:max-w-full'
+                        />
+                    </div>
+                    <div className='order-1 mt-12 lg:order-2'> {/* This line controls the order */}
+                        <h2 className='text-3xl font-bold text-center lg:text-left md:text-5xl md:mx-12 lg:mx-0 lg:w-4/6'>Zero hassle payments</h2>
+                        <p className='mx-8 mt-6 text-center md:mx-32 lg:mx-0 lg:w-4/6 lg:text-left md:mt-8'>Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your Masterard account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
+                        <Button className="flex px-16 py-6 mx-auto mt-12 text-white md:px-8 lg:mx-0 rounded-xl bg-zinc-900 hover:bg-zinc-900 dark:text-white dark:hover:text-black dark:hover:bg-white hover:font-semibold dark:hover:border-zinc-50">Learn More</Button>
+
+                        {/* Desktop - Arrow */}
+                        <div className='md:relative'>
+                            <div className='hidden dark:md:block absolute md:bottom-[400px] md:right-0 lg:bottom-0 lg:-right-[460px]'>
+                                <Image
+                                    src="/images/patterns/left-downward-arrow.png"
+                                    width={700}
+                                    height={700}
+                                    alt="Left Arrow"
+                                    className='max-w-full md:max-w-2xl lg:max-w-full'
+                                />
+                            </div>
+                            <div className='hidden dark:hidden md:absolute md:block md:bottom-[400px] md:right-0 lg:bottom-0 lg:-right-[460px]'>
+                                <Image
+                                    src="/images/patterns/left-downward-arrowBlack.png"
+                                    width={700}
+                                    height={700}
+                                    alt="Left Arrow"
+                                    className='md:max-w-2xl lg:max-w-full'
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
         </div>
