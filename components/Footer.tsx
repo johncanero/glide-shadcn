@@ -6,13 +6,14 @@ import { BsGooglePlay, BsApple } from 'react-icons/bs';
 const Footer = () => {
   return (
     <div>
-      <div className="pt-14 bg-neutral-900 lg:px-[200px]">
-        <div className="flex justify-between">
-          <div>
-            <p className="font-semibold lg:max-w-lg lg:text-6xl">Sign up and Scoot off today</p>
+      <div className="pt-16 bg-neutral-900 lg:px-[200px]">
+        <div className="md:flex-wrap lg:flex-nowrap lg:flex lg:justify-between">
+          <div className="lg:max-w-lg">
+            <p className="text-3xl font-semibold text-center mx-14 md:mx-32 lg:mx-0 lg:text-left md:text-5xl lg:text-6xl">Sign up and Scoot off today</p>
           </div>
+
           {/* GoogleStore and AppStore */}
-          <div className="flex gap-10">
+          <div className="flex flex-wrap justify-center gap-10 mt-12 lg:mt-10 lg:flex-nowrap">
             {/* Google PlayStore */}
             <Button className="flex gap-4 px-6 py-8 bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white rounded-xl">
               <div>
