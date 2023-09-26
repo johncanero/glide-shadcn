@@ -14,7 +14,7 @@ export default function Home() {
                         width={1400}
                         height={1000}
                         alt="Glider Background"
-                        className='hidden mx-auto opacity-100 lg:max-w-full lg:block dark:opacity-70 lg:rounded-3xl'
+                        className='hidden mx-auto opacity-100 lg:max-w-full lg:block dark:opacity-70'
                     />
                 </div>
 
