@@ -39,7 +39,7 @@ export function SheetSide() {
                             <div className="flex">
                                 <Link href="/">
                                     <Image
-                                        className='md:mx-0 dark:hidden mt-4 mr-4 md:mr-4 lg:mr-4'
+                                        className='mt-4 mr-4 md:mx-0 dark:hidden md:mr-4 lg:mr-4'
                                         src='/images/logo/eScooterLogo.png'
                                         alt='eScooterLogo.png'
                                         width={35}
@@ -48,7 +48,7 @@ export function SheetSide() {
                                 </Link>
                                 <Link href="/">
                                     <Image
-                                        className='hidden md:mx-0 dark:block mt-4 mr-4 md:mr-4 lg:mr-4'
+                                        className='hidden mt-4 mr-4 md:mx-0 dark:block md:mr-4 lg:mr-4'
                                         src='/images/logo/eScooterLogo2.png'
                                         alt='eScooterLogo2.png'
                                         width={35}
@@ -64,23 +64,23 @@ export function SheetSide() {
 
                         <div className="mt-4">
                             <Link href="/">
-                                <p className="mt-1 font-medium">Overview</p>
+                                <p className="mt-1 font-medium hover:underline hover:underline-offset-4">Overview</p>
                             </Link>
 
                             <Link href="/about">
-                                <p className="mt-2 font-medium">About</p>
+                                <p className="mt-2 font-medium hover:underline hover:underline-offset-4">About</p>
                             </Link>
 
                             <Link href="/about">
-                                <p className="mt-2 font-medium">Location</p>
+                                <p className="mt-2 font-medium hover:underline hover:underline-offset-4">Location</p>
                             </Link>
 
                             <Link href="/about">
-                                <p className="mt-2 font-medium">Careers</p>
+                                <p className="mt-2 font-medium hover:underline hover:underline-offset-4">Careers</p>
                             </Link>
 
                             <Link href="/about">
-                                <p className="mt-2 font-medium">Contact</p>
+                                <p className="mt-2 font-medium hover:underline hover:underline-offset-4">Contact</p>
                             </Link>
 
                         </div>
