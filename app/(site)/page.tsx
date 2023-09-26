@@ -219,8 +219,31 @@ export default function Home() {
                             alt="City"
                             className='rounded-full max-w-[300px] md:max-w-sm lg:max-w-[400px]'
                         />
+
+                        {/* Desktop - Arrow */}
+                        <div className='md:relative'>
+                            <div className='hidden dark:md:block absolute md:bottom-[44px] md:right-32 lg:bottom-10 lg:-right-[40px]'>
+                                <Image
+                                    src="/images/patterns/right-arrowWhite.png"
+                                    width={1000}
+                                    height={1000}
+                                    alt="Right Arrow"
+                                    className='max-w-full md:max-w-md lg:max-w-lg'
+                                />
+                            </div>
+
+                            <div className='dark:hidden absolute md:bottom-[44px] md:right-32 lg:bottom-10 lg:-right-[40px]'>
+                                <Image
+                                    src="/images/patterns/right-arrowBlack.png"
+                                    width={1000}
+                                    height={1000}
+                                    alt="Right Arrow"
+                                    className='max-w-full md:max-w-md lg:max-w-lg'
+                                />
+                            </div>
+                        </div>
                     </div>
-           
+
                     <div className='mt-12 lg:w-3/6'>
                         <h2 className='text-3xl font-bold text-center lg:text-left md:text-5xl md:mx-12 lg:mx-0 lg:w-4/6'>Coming to a city near you</h2>
                         <p className='mx-8 mt-6 text-center md:mx-32 lg:mx-0 lg:w-5/6 lg:text-left md:mt-8'>Glider is available in 3 major cities so far: Manila, Cebu and Davao. We're expanding rapidly, so be sure to let us know if you want to see us in your hometown. We're aiming to let our scooters loose on seventeen (17) regions in the Philippines. </p>
