@@ -6,7 +6,7 @@ import { BsGooglePlay, BsApple } from 'react-icons/bs';
 const Footer = () => {
   return (
     <div>
-      <div className="pt-16 bg-neutral-900 lg:px-[200px]">
+      <div className="pt-16 mt-16 bg-neutral-900 lg:px-[200px]">
         <div className="md:flex-wrap lg:flex-nowrap lg:flex lg:justify-between">
           <div className="lg:max-w-lg">
             <p className="text-3xl font-semibold text-center mx-14 md:mx-32 lg:mx-0 lg:text-left md:text-5xl lg:text-6xl">Sign up and Scoot off today</p>
