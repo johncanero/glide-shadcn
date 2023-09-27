@@ -28,9 +28,11 @@ const Navbar = () => {
                             height={35}
                         />
                     </Link>
-                    <h1 className='ml-4 text-3xl font-extrabold text-center md:text-4xl md:block dark:text-white text-neutral-800'>
-                        glider
-                    </h1>
+                    <Link href="/">
+                        <h1 className='ml-4 text-3xl font-extrabold text-center md:text-4xl md:block dark:text-white text-neutral-800'>
+                            glider
+                        </h1>
+                    </Link>
                 </div>
 
                 {/* Desktop */}
