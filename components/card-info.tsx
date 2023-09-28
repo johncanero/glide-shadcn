@@ -11,9 +11,6 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
-import { Separator } from "@/components/ui/separator"
-import { Switch } from "@/components/ui/switch"
-
 
 interface CardProps extends React.ComponentProps<typeof Card> {
     icon: string;
@@ -31,19 +28,19 @@ export function CardDemo({ className, ...props }: CardProps) {
                         width={100}
                         height={100}
                         alt="icon"
-                        className="rounded-full shadow-lg loading-icon mx-auto md:mx-0"
+                        className="mx-auto rounded-full shadow-lg loading-icon md:mx-0"
                     />
                 </CardTitle>
                 <CardDescription></CardDescription>
             </CardHeader>
             <CardContent>
                 <div className="text-center md:text-left">
-                    <div className="lg:mt-10    ">
-                        <p className="text-xl md:text-2xl font-semibold">
+                    <div className="lg:mt-10 ">
+                        <p className="text-xl font-semibold md:text-2xl">
                             {props.title}
                         </p>
                     </div>
-                    <div className="flex text-sm md:text-base items-center space-x-4 max-w-xs md:max-w-full rounded-md lg:mt-8">
+                    <div className="flex items-center max-w-xs space-x-4 text-sm rounded-md md:text-base md:max-w-full lg:mt-8">
                         <p>
                             {props.description}
                         </p>
