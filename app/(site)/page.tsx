@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
-import { CardDemo } from '@/components/card-info'
+import { CardHome} from '@/components/card-info-home'
 
 export default function Home() {
     return (
@@ -131,7 +131,7 @@ export default function Home() {
                         <Button className="z-10 w-auto px-8 py-6 rounded-xl bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white">Get GliderSwift</Button>
                     </div>
                 </div>
-
+        
                 {/* Mobile - Arrow */}
                 <div className='absolute left-0 md:hidden bottom-3'>
                     <Image
@@ -147,17 +147,17 @@ export default function Home() {
             {/* Cards */}
             <div>
                 <div className='flex flex-wrap justify-center mt-8 gap-x-16'>
-                    <CardDemo
+                    <CardHome
                         icon='/images/icons/locate.png'
                         title='Locate with app'
                         description='Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away.'
                     />
-                    <CardDemo
+                    <CardHome
                         icon='/images/icons/scooter.png'
                         title='Pick your scooter'
                         description='We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.'
                     />
-                    <CardDemo
+                    <CardHome
                         icon='/images/icons/ride.png'
                         title='Enjoy the ride'
                         description='Scan the QR code and the scooter will unlock. Retract the cable lock, put on a helmet, and you are off! Always lock scooters away from walkways and accessibility ramps.'

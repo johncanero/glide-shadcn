@@ -14,33 +14,39 @@ import {
 
 interface CardProps extends React.ComponentProps<typeof Card> {
     icon: string;
+    number: string;
     title: string;
     description: string;
 }
 
-export function CardDemo({ className, ...props }: CardProps) {
+export function CardAbout({ className, ...props }: CardProps) {
     return (
-        <Card className={cn("lg:w-[380px] md:flex lg:flex-col md:mt-20", className)} {...props}>
+        <Card className={cn("lg:w-[380px] md:flex-col md:mt-20", className)} {...props}>
             <CardHeader>
                 <CardTitle>
                     <Image
                         src={props.icon}
-                        width={100}
-                        height={100}
+                        width={236}
+                        height={236}
                         alt="icon"
-                        className="mx-auto rounded-full shadow-lg loading-icon md:mx-0"
+                        className="mx-auto rounded-full shadow-lg loading-icon"
                     />
+                    <div className="relative">
+                        <div className="inline-flex absolute  -bottom-[30px] right-[120px] items-center justify-center w-20 h-20 text-xl font-bold text-gray-700 bg-white rounded-full">
+                            {props.number}
+                        </div>
+                    </div>
                 </CardTitle>
                 <CardDescription></CardDescription>
             </CardHeader>
             <CardContent>
                 <div className="text-center md:text-left">
-                    <div className="lg:mt-10 ">
-                        <p className="text-xl font-semibold md:text-2xl">
+                    <div className="mt-8">
+                        <p className="text-xl font-semibold text-center md:text-2xl">
                             {props.title}
                         </p>
                     </div>
-                    <div className="flex items-center max-w-xs space-x-4 text-sm rounded-md md:text-base md:max-w-full lg:mt-8">
+                    <div className="flex items-center max-w-xs space-x-4 text-sm text-center rounded-md md:text-base md:max-w-full lg:mt-8">
                         <p>
                             {props.description}
                         </p>
