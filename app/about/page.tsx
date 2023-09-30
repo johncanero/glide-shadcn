@@ -1,7 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
-import { Button } from '@/components/ui/button';
 import { CardAbout } from '@/components/card-info-about';
+import { AccordionFaqs } from '@/components/accordion-about-faqs';
+import { AccordionSafe } from '@/components/accordion-about-safe';
+
 
 const About = () => {
     return (
@@ -162,6 +164,25 @@ const About = () => {
                 </div>
             </div>
 
+            {/* Accordion */}
+            <div className='my-20 md:my-36'>
+                <div>
+                    <div>
+                        <h2 className='text-4xl font-semibold text-center lg:text-5xl'>faqs</h2>
+                    </div>
+                    <div className='md:flex justify-between mx-12 md:mx-[96px] lg:mx-[200px] md:mt-8'>
+                        <p className='text-3xl font-semibold lg:w-[400px] lg:text-4xl mt-10'>How it works</p>
+                        <AccordionFaqs />
+                    </div>
+                </div>
+
+                <div>
+                    <div className='md:flex justify-between mx-12 md:mx-[96px] lg:mx-[200px] mt-16 md:mt-8'>
+                        <p className='text-3xl font-semibold lg:w-[400px] lg:text-4xl mt-10'>Safe driving</p>
+                        <AccordionSafe />
+                    </div>
+                </div>
+            </div>
 
         </div>
     );
