@@ -19,6 +19,10 @@ const About = () => {
                         alt="About"
                         className='w-full dark:opacity-70'
                     />
+                    
+                    <div className='md:relative lg:mx-[200px]'>
+                        <h2 className='absolute md:bottom-[250px] lg:-top-40 text-5xl lg:left-[0px] font-bold'>About</h2>
+                    </div>
                 </div>
 
                 {/* Tablet */}
@@ -30,6 +34,11 @@ const About = () => {
                         alt="About"
                         className='w-full dark:opacity-70'
                     />
+
+
+                    <div className='md:relative md:mx-[60px]'>
+                        <h2 className='absolute md:bottom-[250px] md:-top-36 md:text-4xl md:left-[0px] font-bold'>About</h2>
+                    </div>
                 </div>
 
                 {/* Mobile */}
@@ -41,6 +50,9 @@ const About = () => {
                         alt="About"
                         className='w-full dark:opacity-70'
                     />
+                    <div className='relative flex justify-center'>
+                        <h2 className='absolute text-3xl font-bold -top-28'>About</h2>
+                    </div>
                 </div>
             </div>
 
