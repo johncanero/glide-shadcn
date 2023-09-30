@@ -71,15 +71,15 @@ export function SheetSide() {
                                 <p className="mt-2 font-medium hover:underline hover:underline-offset-4">About</p>
                             </Link>
 
-                            <Link href="/about">
+                            <Link href="/location">
                                 <p className="mt-2 font-medium hover:underline hover:underline-offset-4">Location</p>
                             </Link>
 
-                            <Link href="/about">
+                            <Link href="/careers">
                                 <p className="mt-2 font-medium hover:underline hover:underline-offset-4">Careers</p>
                             </Link>
 
-                            <Link href="/about">
+                            <Link href="/contact">
                                 <p className="mt-2 font-medium hover:underline hover:underline-offset-4">Contact</p>
                             </Link>
 

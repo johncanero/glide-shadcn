@@ -21,7 +21,7 @@ const About = () => {
                     />
                     
                     <div className='md:relative lg:mx-[200px]'>
-                        <h2 className='absolute md:bottom-[250px] lg:-top-40 text-5xl lg:left-[0px] font-bold'>About</h2>
+                        <h2 className='absolute md:bottom-[250px] lg:-top-40 text-5xl lg:left-[0px] font-bold text-white'>About</h2>
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@ const About = () => {
 
 
                     <div className='md:relative md:mx-[60px]'>
-                        <h2 className='absolute md:bottom-[250px] md:-top-36 md:text-4xl md:left-[0px] font-bold'>About</h2>
+                        <h2 className='absolute md:bottom-[250px] md:-top-36 md:text-4xl md:left-[0px] font-bold text-white'>About</h2>
                     </div>
                 </div>
 
@@ -51,7 +51,7 @@ const About = () => {
                         className='w-full dark:opacity-70'
                     />
                     <div className='relative flex justify-center'>
-                        <h2 className='absolute text-3xl font-bold -top-28'>About</h2>
+                        <h2 className='absolute text-3xl font-bold text-white -top-28'>About</h2>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ const About = () => {
             {/* Feature - Images */}
             <div>
                 {/* About: Digital Era */}
-                <div className='mt-20 mb-12 md:mt-20'>
+                <div className='mt-20 mb-12'>
                     <div className='flex-wrap lg:flex-nowrap flex justify-center lg:mx-[200px]'>
                         <div className='order-1 lg:order-3'> {/* This line controls the order */}
                             <Image
