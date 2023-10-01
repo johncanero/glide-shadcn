@@ -19,7 +19,7 @@ interface CardProps extends React.ComponentProps<typeof Card> {
 
 export function CardCareers({ className, ...props }: CardProps) {
     return (
-        <Card className={cn("md:flex justify-between dark:bg-zinc-100 dark:text-black mt-5 md:px-6 lg:px-12 py-2", className)} {...props}>
+        <Card className={cn("md:flex justify-between dark:bg-zinc-100 bg-zinc-900 text-white dark:text-black mt-5 md:px-6 lg:px-12 py-2", className)} {...props}>
             <CardHeader>
                 <CardTitle>
                     <div>
@@ -37,7 +37,7 @@ export function CardCareers({ className, ...props }: CardProps) {
             </CardHeader>
             <CardContent>
                 <div>
-                    <Button className="flex px-24 lg:px-28 py-8 md:mt-6 lg:mt-5 mx-auto text-white hover:text-black  bg-zinc-900 dark:bg-zinc-900 hover:bg-zinc-100 dark:text-white dark:hover:text-white hover:font-semibold dark:hover:bg-zinc-800  dark:hover:border-zinc-50">Apply</Button>
+                    <Button className="flex px-24 lg:px-28 py-8 md:mt-6 lg:mt-5 mx-auto text-black hover:text-black bg-zinc-100 dark:bg-zinc-900 hover:bg-zinc-200 dark:text-white dark:hover:text-white hover:font-semibold dark:hover:bg-zinc-800  dark:hover:border-zinc-50">Apply</Button>
                 </div>
             </CardContent>
         </Card>
