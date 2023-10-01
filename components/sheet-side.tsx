@@ -87,10 +87,12 @@ export function SheetSide() {
 
                         <SheetFooter>
                             <SheetClose asChild>
-                                <Button className="justify-end gap-1 mt-12">
-                                    <ArrowLeft />
-                                    Return
-                                </Button>
+                                <div>
+                                    <Button className="justify-end gap-1 mt-12">
+                                        <ArrowLeft />
+                                        Return
+                                    </Button>
+                                </div>
                             </SheetClose>
                         </SheetFooter>
                     </SheetContent>

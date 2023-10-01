@@ -56,7 +56,7 @@ const Navbar = () => {
 
                 {/* Desktop */}
                 <div className="items-center justify-center hidden space-x-4 lg:flex">
-                    <Button className="w-auto px-8 py-6 bg-zinc-50 hover:bg-zinc-900 dark:text-black dark:hover:text-white hover:text-white rounded-xl hover:font-semibold">Get GliderSwift</Button>
+                    <Button className="flex px-16 py-6 mx-auto text-white hover:text-black md:px-8 lg:mx-0 rounded-xl bg-zinc-900 dark:bg-zinc-50 hover:bg-zinc-100 dark:text-black dark:hover:text-white hover:font-semibold dark:hover:bg-zinc-900  dark:hover:border-zinc-50">Get GliderSwift</Button>
                 </div>
 
 
