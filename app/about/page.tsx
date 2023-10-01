@@ -177,7 +177,7 @@ const About = () => {
             </div>
 
             {/* Accordion */}
-            <div className='my-20 md:my-36'>
+            <div className='my-20 md:my-32'>
                 <div>
                     <div>
                         <h2 className='text-4xl font-semibold text-center lg:text-5xl'>faqs</h2>
