@@ -10,7 +10,7 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
+} from "@/components/ui/card-props"
 
 interface CardProps extends React.ComponentProps<typeof Card> {
     career: string;

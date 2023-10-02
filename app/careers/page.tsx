@@ -131,6 +131,7 @@ const Careers = () => {
                 </div>
             </div>
 
+            {/* Card Careers */}
             <div className='lg:mt-32 mb-24 mx-[36px] md:mx-[72px] lg:mx-[300px]'>
                 <CardCareers
                     career='General Manager'
