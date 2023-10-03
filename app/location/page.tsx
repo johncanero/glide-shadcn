@@ -102,7 +102,7 @@ const Location = () => {
                 <div className='flex flex-wrap justify-center lg:justify-between mb-24 mx-[40px] md:mx-[100px] lg:mx-[200px]'>
                     <p className='font-semibold text-4xl max-w-[200px] md:text-5xl md:max-w-[400px] mt-20 lg:mt-0 text-center lg:text-left lg:max-w-[300px]'>Your city not listed?</p>
                     <p className='mt-8 text-center lg:max-w-xl lg:text-left lg:mt-0'>If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches based on demand. Feel free to message us by clicking the link or messaging us on social.</p>
-                    <Button className="flex px-12 py-6 mx-auto mt-12 text-white hover:text-black md:px-8 lg:mx-0 rounded-xl bg-zinc-900 dark:bg-zinc-50 hover:bg-zinc-100 dark:text-black dark:hover:text-white hover:font-semibold dark:hover:bg-zinc-900 dark:hover:border-zinc-50 lg:mt-0">Message Us</Button>
+                    <Button className="flex px-12 py-6 mx-auto mt-12 text-white hover:text-black md:px-8 lg:mx-0 rounded-xl bg-zinc-900 dark:bg-zinc-50 hover:bg-zinc-100 dark:text-black dark:hover:text-white dark:hover:bg-zinc-900 dark:hover:border-zinc-50 lg:mt-0">Message Us</Button>
                 </div>
             </div>
         </div>

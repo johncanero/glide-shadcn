@@ -56,14 +56,14 @@ const Navbar = () => {
 
                 {/* Desktop */}
                 <div className="items-center justify-center hidden space-x-4 lg:flex">
-                    <Button className="flex px-16 py-6 mx-auto text-white hover:text-black md:px-8 lg:mx-0 rounded-xl bg-zinc-900 dark:bg-zinc-50 hover:bg-zinc-100 dark:text-black dark:hover:text-white hover:font-semibold dark:hover:bg-zinc-900 dark:hover:border-zinc-50">Get GliderSwift</Button>
+                    <Button className="flex px-16 py-6 mx-auto text-white hover:text-black md:px-8 lg:mx-0 rounded-xl bg-zinc-900 dark:bg-zinc-50 hover:bg-zinc-100 dark:text-black dark:hover:text-white dark:hover:bg-zinc-900 dark:hover:border-zinc-50">Get GliderSwift</Button>
                 </div>
 
 
                 <div className="flex lg:gap-2">
                     {/* Tablet */}
                     <div className="items-center justify-center hidden mr-4 space-x-4 md:block lg:hidden">
-                        <Button className="flex px-16 py-6 mx-auto text-white hover:text-black md:px-8 lg:mx-0 rounded-xl bg-zinc-900 dark:bg-zinc-50 hover:bg-zinc-100 dark:text-black dark:hover:text-white hover:font-semibold dark:hover:bg-zinc-900 dark:hover:border-zinc-50">Get GliderSwift</Button>
+                        <Button className="flex px-16 py-6 mx-auto text-white hover:text-black md:px-8 lg:mx-0 rounded-xl bg-zinc-900 dark:bg-zinc-50 hover:bg-zinc-100 dark:text-black dark:hover:text-white dark:hover:bg-zinc-900 dark:hover:border-zinc-50">Get GliderSwift</Button>
                     </div>
                     <ModeToggle />
                     <SheetSide />
