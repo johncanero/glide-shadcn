@@ -69,7 +69,7 @@ const Careers = () => {
                         />
                     </div>
                     <div className='order-1 mt-12 lg:order-2'> {/* This line controls the order */}
-                        <h2 className='text-3xl font-bold text-center lg:text-left md:text-5xl md:mx-12 lg:mx-0 lg:w-4/6'>Care to join our mission</h2>
+                        <h2 className='mx-6 text-4xl font-bold text-center lg:text-5xl lg:text-left md:text-5xl md:mx-12 lg:mx-0 lg:w-4/6'>Care to join our mission</h2>
                         <p className='mx-8 mt-6 text-center md:mx-32 lg:mx-0 lg:w-4/6 lg:text-left md:mt-8'>We're always looking for ambitious individuals to help us on our journey. If you're passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!</p>
                         <Button className="flex px-16 py-6 mx-auto mt-12 text-white hover:text-black md:px-8 lg:mx-0 rounded-xl bg-zinc-900 dark:bg-zinc-50 hover:bg-zinc-100 dark:text-black dark:hover:text-white hover:font-semibold dark:hover:bg-zinc-900 dark:hover:border-zinc-50">Say Hello</Button>
 
